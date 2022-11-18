@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fahrzeug/Fahrzeug.iml" filepath="$PROJECT_DIR$/Fahrzeug/Fahrzeug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mitarbeiter/Mitarbeiter.iml" filepath="$PROJECT_DIR$/Mitarbeiter/Mitarbeiter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SchoolAssignments-Object-oriented-Programming.iml" filepath="$PROJECT_DIR$/.idea/SchoolAssignments-Object-oriented-Programming.iml" />
+    </modules>
+  </component>
+</project>
