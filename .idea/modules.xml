@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BaseExample/BaseExample.iml" filepath="$PROJECT_DIR$/BaseExample/BaseExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fahrzeug/Fahrzeug.iml" filepath="$PROJECT_DIR$/Fahrzeug/Fahrzeug.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mitarbeiter/Mitarbeiter.iml" filepath="$PROJECT_DIR$/Mitarbeiter/Mitarbeiter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PersonMitarbeiterKunde/PersonMitarbeiterKunde.iml" filepath="$PROJECT_DIR$/PersonMitarbeiterKunde/PersonMitarbeiterKunde.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SchoolAssignments-Object-oriented-Programming.iml" filepath="$PROJECT_DIR$/.idea/SchoolAssignments-Object-oriented-Programming.iml" />
     </modules>
   </component>

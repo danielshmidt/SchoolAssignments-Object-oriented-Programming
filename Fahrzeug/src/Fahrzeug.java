@@ -9,7 +9,13 @@ public class Fahrzeug {
     private char antriebsart;
     private boolean mitHaendlergarantie;
 
+    private int fahrzeugid;
+
+    private static int counter = 1;
+
+
     public Fahrzeug(String hersteller, String modell, int baujahr, int kmstand, double verkaufspreis, String farbe, char antriebsart, boolean mitHaendlergarantie){
+        this.fahrzeugid = counter++;
         this.hersteller = hersteller;
         this.modell = modell;
         this.baujahr = baujahr;
@@ -19,8 +25,34 @@ public class Fahrzeug {
         this.antriebsart = antriebsart;
         this.mitHaendlergarantie = mitHaendlergarantie;
     }
+
+    public String getModell(){
+        return modell;
+    }
+
+    public void setModell(String modell){
+        this.modell = modell;
+    }
+
+    public String getHersteller(){
+        return hersteller;
+    }
+
+    public void setHersteller(String hersteller){
+        this.hersteller = hersteller;
+    }
+    public int getBaujahr(){
+        return baujahr;
+    }
+
+    public void setBaujahr(int baujahr){
+        this.baujahr = baujahr;
+    }
+
+
     public String toString(){
-        return "Hersteller: " + hersteller + "\n" +
+        return  "ID: " + fahrzeugid + "\n" +
+                "Hersteller: " + hersteller + "\n" +
                 "Modell: " + modell + "\n" +
                 "Baujahr: " + baujahr + "\n" +
                 "KM-Stand: " + kmstand + "\n" +
