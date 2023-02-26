@@ -3,12 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnwendungderVererbung/AnwendungderVererbung.iml" filepath="$PROJECT_DIR$/AnwendungderVererbung/AnwendungderVererbung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assoziationen/Assoziationen.iml" filepath="$PROJECT_DIR$/Assoziationen/Assoziationen.iml" />
       <module fileurl="file://$PROJECT_DIR$/BaseExample/BaseExample.iml" filepath="$PROJECT_DIR$/BaseExample/BaseExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fahrzeug/Fahrzeug.iml" filepath="$PROJECT_DIR$/Fahrzeug/Fahrzeug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fehlerbehebung/Fehlerbehebung.iml" filepath="$PROJECT_DIR$/Fehlerbehebung/Fehlerbehebung.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfacesUndMehrfachImplementierung/InterfacesUndMehrfachImplementierung.iml" filepath="$PROJECT_DIR$/InterfacesUndMehrfachImplementierung/InterfacesUndMehrfachImplementierung.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mitarbeiter/Mitarbeiter.iml" filepath="$PROJECT_DIR$/Mitarbeiter/Mitarbeiter.iml" />
       <module fileurl="file://$PROJECT_DIR$/PersonMitarbeiterKunde/PersonMitarbeiterKunde.iml" filepath="$PROJECT_DIR$/PersonMitarbeiterKunde/PersonMitarbeiterKunde.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SchoolAssignments-Object-oriented-Programming.iml" filepath="$PROJECT_DIR$/.idea/SchoolAssignments-Object-oriented-Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
     </modules>
   </component>
 </project>

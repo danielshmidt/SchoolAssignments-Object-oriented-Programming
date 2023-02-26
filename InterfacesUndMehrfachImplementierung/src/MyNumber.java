@@ -1,11 +1,14 @@
-public class MyNumber implements Commentable{
+public class MyNumber implements Commentable, Flagable{
 
     private int Number;
     private String Comment;
 
-    public MyNumber(int Number_P, String Comment_P){
+    private boolean Flag;
+
+    public MyNumber(int Number_P, String Comment_P, boolean Flag_P){
         Number = Number_P;
         Comment = Comment_P;
+        Flag = Flag_P;
     }
 
     @Override
@@ -20,7 +23,7 @@ public class MyNumber implements Commentable{
 
     @Override
     public void clearComment() {
-        Comment = null;
+        Comment = "";
     }
 
     public int getNumber() {
@@ -29,5 +32,20 @@ public class MyNumber implements Commentable{
 
     public void setNumber(int number) {
         Number = number;
+    }
+
+    @Override
+    public boolean getFlag() {
+        return Flag;
+    }
+
+    @Override
+    public void setFlag() {
+        Flag = true;
+    }
+
+    @Override
+    public void resetFlag() {
+        Flag = false;
     }
 }
